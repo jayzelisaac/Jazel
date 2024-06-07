@@ -1,139 +1,87 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700%7COpen+Sans:400,600,700%7CSource+Code+Pro:300,400,500,600,700,900%7CNothing+You+Could+Do%7CPoppins:400,500">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"></div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Page Header -->
+  <header class="section page-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo 2.png" alt="Logo" width="148" height="26">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/drdboy">Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/dr_dboy/">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Swiper Section -->
+  <section class="section">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('images/banner/banner_4.png'); background-size: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Brand New music</h5>
+            <h1>Live life love music</h1>
+            <a class="btn btn-primary" href="#">Listen</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('images/banner/banner3.png'); background-size: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Merchandise</h5>
+            <h1>#1 Quality</h1>
+            <a class="btn btn-primary" href="#">See all Merchandise</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('images/banner/banner_4.png'); background-size: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Audio Engineer</h5>
+            <h1>Sound design, mixing & mastering</h1>
+            <a class="btn btn-primary" href="#">View Services</a>
+          </div>
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <div class="page">
-     
-      <!-- Page Header-->
-      <header class="section page-header">
-        <!--RD Navbar-->
-        <div class="rd-navbar-wrap" style="position: absolute">
-          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
-                <!--RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!--RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!--RD Navbar Brand-->
-                  <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img src="images/logo 2.png" alt="" width="148" height="26"/></a>
-                  </div>
-                </div>
-                <div class="rd-navbar-collapse">
-                  <ul class="socialite-list">
-                    <li><a class="icon novi-icon socialite fa-facebook" href="#"></a></li>
-                    <li><a class="icon novi-icon socialite fa-instagram" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <!--Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="3892" data-simulate-touch="false">
-        <div class="swiper-wrapper text-center">
-          <div class="swiper-slide context-dark" data-slide-bg="images/banner/banner 3">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row justify-content-lg-center">
-                  <div class="col-lg-8">
-                    <h5 data-caption-animate="fadeInUp" data-caption-delay="100">Brand New music</h5>
-                    <h1 data-caption-animate="fadeInUp" data-caption-delay="200">Live life love music</h1>
-                    <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-modern button-custom-size-1" href="#">Listen</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide context-dark" data-slide-bg="images/">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row justify-content-lg-center">
-                  <div class="col-lg-8">
-                    <h5 data-caption-animate="fadeInUp" data-caption-delay="100">Merchandise</h5>
-                    <h1 data-caption-animate="fadeInUp" data-caption-delay="200">#1 Quality</h1>
-                    <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-modern button-custom-size-1" href="#">see all Merchandise</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide context-dark" data-slide-bg="images/banner/banner 2.png">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row justify-content-lg-center">
-                  <div class="col-lg-8">
-                    <h5 data-caption-animate="fadeInUp" data-caption-delay="100">Audio Engineer</h5>
-                    <h1 data-caption-animate="fadeInUp" data-caption-delay="200">Sound design, mixing & mastering</h1>
-                    <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-modern button-custom-size-1" href="#">View Services</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Swiper Pagination-->
-        <div class="swiper-pagination"></div>
-      </section>
+  </section>
 
-      <section class="parallax-container section-lg text-center" data-parallax-img="images/bg-home1-01-1920x1000.jpg">
-        <div class="parallax-content">
-          <div class="container">
-            <h6 class="text-gray-600">Nairobi, Karen - every second Saturday of the month.</h6>
-            <h2>Rap camp </h2>
-            <div class="row justify-content-center">
-              <div class="col-lg-11">
-                <div class="post-event">
-                  <div class="countdown" data-type="until" data-time="17 Aug 2080 03:33"></div><img src="images/events-02-571x313.jpg" alt="" width="571" height="156"/><a class="button button-primary button-lg" href="#">buy tickets</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <footer class="section footer-classic bg-default">
-        <div class="container">
-          <div class="row row-15">
-            <div class="col-sm-6">
-              <p class="rights"><span>Jazel 'dBoy' Isaac</span><span>&nbsp;</span><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>\&nbsp;</span>All Rights Reserved
-                | Producer <a href="https://www.templatemonster.com/">Extraordinaire</a>
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <div class="footer-contact"><a href="contacts.html">
-                  <div class="icon novi-icon mdi mdi-email-outline"></div>Contact Me</a></div>
-            </div>
-          </div>
-        </div>
-      </footer>
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container text-center py-3">
+      <p class="mb-0">&copy; <span class="copyright-year"></span> Jazel 'dBoy' Isaac | Producer Extraordinaire</p>
+      <a class="btn btn-link" href="contacts.html">Contact Me</a>
     </div>
-    <div class="snackbars" id="form-output-global"></div>
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!--coded by houdini-->
-    <!--adapted by F1r3f1ng3r5-->
-  </body>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
