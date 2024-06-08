@@ -110,3 +110,17 @@ body {
 .social-media a:hover {
   color: #e5b402; /* Hover icon color */
 }
+.accordion-body {
+  color: #e5b402; /* Golden yellow color */
+}
+.accordion-item {
+  margin-bottom: 1rem; /* Add margin between accordion items */
+}
+
+.accordion-body {
+  padding: 1rem; /* Add padding to accordion body */
+}
+.btn-primary:hover {
+  background-color: #FFD700; /* Golden yellow color */
+  border-color: #FFD700; /* Adjust the border color as well if needed */
+}

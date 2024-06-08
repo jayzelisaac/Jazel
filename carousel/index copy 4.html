@@ -99,7 +99,7 @@
     </div>
   </nav>
 </header>
-<main>
+<main>npm install react react-dom
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -189,6 +189,7 @@
               <div id="customBeatsCollapse" class="accordion-collapse collapse" aria-labelledby="customBeatsHeading" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
                   We offer custom beat production tailored to your needs.
+                  <button class="btn btn-primary btn-sm float-end">Contact Me</button>
                 </div>
               </div>
             </div>
@@ -200,22 +201,43 @@
               </h2>
               <div id="mixingCollapse" class="accordion-collapse collapse" aria-labelledby="mixingHeading" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
-                  Our professional mixing services ensure your tracks sound polished and balanced.
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3>Before Mixing</h3>
+                      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/BEFORE_SONG_ID&color=%23e5b402&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3>After Mixing</h3>
+                      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/AFTER_SONG_ID&color=%23e5b402&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12" style="margin-top: 20px;"></div>
+                      <p>Our professional mixing services ensure your tracks sound polished and balanced. We have a team of experienced audio engineers who specialize in creating high-quality mixes that enhance the overall sound of your music. Whether you need help with leveling, EQ, compression, or any other aspect of the mixing process, we've got you covered. Contact us today to discuss your project and let us take your music to the next level.</p>
+                      <button class="btn btn-primary btn-sm float-end">Contact Me</button>
+                    </div>
+                  </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="recordingHeading">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#recordingCollapse" aria-expanded="false" aria-controls="recordingCollapse">
-                  Recording
-                </button>
-              </h2>
-              <div id="recordingCollapse" class="accordion-collapse collapse" aria-labelledby="recordingHeading" data-bs-parent="#servicesAccordion">
-                <div class="accordion-body">
-                  Our state-of-the-art recording facilities provide a professional environment for your projects.
-                </div>
               </div>
             </div>
+            <div class="accordion" id="servicesAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="recordingHeading">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#recordingCollapse" aria-expanded="false" aria-controls="recordingCollapse">
+                    Recording
+                  </button>
+                </h2>
+                <div id="recordingCollapse" class="accordion-collapse collapse" aria-labelledby="recordingHeading" data-bs-parent="#servicesAccordion">
+                  <div class="accordion-body">
+                    Our state-of-the-art recording facilities provide a professional environment for your projects.
+                    <button class="btn btn-primary btn-sm float-end">Contact Me</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
           </div>
         </div>
       </div>
